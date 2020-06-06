@@ -11,6 +11,8 @@
 // Input: [3,1,3,4,2]
 // Output: 3
 
+import java.util.Arrays;
+
 class Solution {
     public int findDuplicate(int[] nums) {
       Arrays.sort(nums);
