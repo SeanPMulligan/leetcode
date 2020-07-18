@@ -27,9 +27,10 @@ target = 13
 Output: false
 */
 
+#include <vector>
 class Solution {
 public:
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+    bool searchMatrix(std::vector<std::vector<int>>& matrix, int target) {
       if (matrix.size() == 0)
         return false;
       
